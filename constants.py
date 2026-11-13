@@ -1,0 +1,9 @@
+"""Configuration constants for CryptStep."""
+
+GRID_WIDTH = 15
+GRID_HEIGHT = 15
+TILE_SIZE = 40
+
+SCREEN_WIDTH = GRID_WIDTH * TILE_SIZE
+SCREEN_HEIGHT = GRID_HEIGHT * TILE_SIZE
+FPS = 30
