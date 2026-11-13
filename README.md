@@ -13,7 +13,7 @@ A turn-based grid puzzle and dungeon crawler built in Python using Pygame-CE.
 * `rendering.py` — Pygame-CE graphics rendering and HUD overlays.
 * `main.py` — Application entry point and event loop.
 * `constants.py` — Grid dimensions, tile sizes, and color/display configuration.
-* `tests/test_logic.py` — Pytest covering movement, combat, and state edge cases.
+* `test_logic.py` — Pytest covering movement, combat, and state edge cases.
 
 ## Planned Controls
 * **Arrow Keys / WASD:** Move one tile (North, South, East, West)
