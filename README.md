@@ -9,11 +9,11 @@ A turn-based grid puzzle and dungeon crawler built in Python using Pygame-CE.
 * **Loss Condition:** Player HP drops to 0.
 
 ## Planned Architecture
-* `logic.py` — Python game state, movement, combat, and win/loss rules (zero Pygame dependencies).
+* `logic.py` — Python game state, movement, combat, and win/loss rules.
 * `rendering.py` — Pygame-CE graphics rendering and HUD overlays.
 * `main.py` — Application entry point and event loop.
 * `constants.py` — Grid dimensions, tile sizes, and color/display configuration.
-* `test_logic.py` — Pytest covering movement, combat, and state edge cases.
+* `tests/test_logic.py` — Pytest covering movement, combat, and state edge cases.
 
 ## Planned Controls
 * **Arrow Keys / WASD:** Move one tile (North, South, East, West)
